@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #A48BE0, #FADADD);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+
+/*Box*/
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  height: 60%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/*letra h1*/
+h1 {
+  color: #6a1b9a;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/*letra p*/
+.quote {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/*inputs*/
+.todosinputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/*input e botao*/
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/*botao*/
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #b19cd9;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/*botao hover*/
+button:hover {
+  background-color: #9b7bc2;
+}
+
+/*lista de tarefas*/
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+/*item da lista*/
+#taskList li {
+  background: #f3e5f5;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*item da lista hover*/
+#taskList li.completed {
+  text-decoration: line-through;
+  color: #888;
+  background: #e1bee7;
+}
+
+/*botao de completar tarefa*/
+.task-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+/*botao de completar tarefa e excluir*/
+.task-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+/*botao de completar tarefa hover*/
+.task-buttons button:hover {
+  transform: scale(1.1);
+}

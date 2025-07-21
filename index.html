@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Título da página que aparece na aba do navegador -->
+  <title>To do list Bts</title>
+  <!-- Importa a fonte Montserrat do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Importa o arquivo de estilos CSS -->
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
-    
-</body>
-</html>
+  <!-- Container principal da lista de tarefas -->
+  <div class="container">
+    <!-- Título da lista -->
+    <h1>💜 To do List 💜</h1>
+    <!-- Frase inspiradora -->
+    <p class="quote">“Don't be afraid, love is the way.”</p>
+    <!-- Área de entrada de tarefas -->
+    <div class="todosinputs">
+      <!-- Campo para digitar a tarefa -->
+      <input type="text" id="taskInput" placeholder="O que você precisa fazer?" />
+      <!-- Botão para adicionar a tarefa, chama a função JS ao clicar -->
+      <button onclick="adicionarTarefa()">Adicionar</button>
+    </div>
+    <!-- Lista onde as tarefas serão exibidas -->
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- Importa o arquivo JavaScript com as funções da lista -->
+  <script src=
