@@ -34,4 +34,4 @@ Uma aplicação simples e funcional para organizar tarefas do dia a dia com um v
 1. **Clone este repositório no seu computador:**
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/amagnelle/Lista-de-tarefas.git
